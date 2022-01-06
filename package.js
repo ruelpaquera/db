@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use([
     'underscore',
     'ejson',
-    'raix:eventstate@0.0.6',
+    'raix:eventstate',
   ], ['client', 'server']);
 
   api.export('Ground');
